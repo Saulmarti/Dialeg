@@ -53,6 +53,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="345dp" />
 
@@ -60,12 +64,20 @@
             android:id="@+id/textViewHora"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
             android:layout_weight="1" />
 
         <TextView
             android:id="@+id/textViewColor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
             android:layout_weight="1" />
     </LinearLayout>
 
